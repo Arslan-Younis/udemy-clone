@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.header-bg{
+  height: 60vh;
+  background-image: url(https://img-a.udemycdn.com/notices/home_banner/image/048e0cdc-3e71-47dc-ae30-e9ac7a3504b5.jpg);
+  align-items: center;
+  background-size: 100%;
+}
