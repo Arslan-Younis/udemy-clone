@@ -124,9 +124,9 @@ export default function CustomizedTabs() {
     <div className={classes.root}>
       <div className={classes.demo1}>
         <AntTabs value={value} onChange={handleChange} aria-label="ant example">
-          <AntTab label="Tab 1" {...a11yProps(0)} />
-          <AntTab label="Tab 2" {...a11yProps(1)} />
-          <AntTab label="Tab 3" {...a11yProps(2)} />
+          <AntTab label="Business" {...a11yProps(0)} />
+          <AntTab label="IT & Software" {...a11yProps(1)} />
+          <AntTab label="Development" {...a11yProps(2)} />
         </AntTabs>
         <Typography className={classes.padding} />
         <TabPanel value={value} index={0}>
@@ -609,7 +609,7 @@ export default function CustomizedTabs() {
         </TabPanel>
 
 
-        
+
         <TabPanel value={value} index={2}>
         <Slider {...settings}>
         <div className={classes.cardPadding}>
